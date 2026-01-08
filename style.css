@@ -19,6 +19,43 @@ body {
     margin: 0 auto;
 }
 
+.card {
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px #00000014;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .img-container {
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+    background: #F95555;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card h3 {
+    font-size: 24px;
+    margin: 16px 0;
+}
+
+
+.section-heading h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.section-heading p, .card-container p{
+    font-size: 16px;
+    color: #627382;
+}
+
 .btn {
     font-size: 16px;
     font-weight: bold;
@@ -138,4 +175,20 @@ nav .brand-logo img{
     line-height: 32px;
     color: #ffffff;
     margin-bottom: 32px;
+}
+
+#notes .notes-container {
+    padding: 120px 0;
+    text-align: center;
+}
+
+#notes .notes-container .card-container {
+    display: flex;
+    gap: 24px;
+    margin-top: 44px;
+}
+
+footer {
+    color: #ffffff;
+    background: #001931;
 }
