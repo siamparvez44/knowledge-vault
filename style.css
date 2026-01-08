@@ -175,6 +175,10 @@ nav .brand-logo img{
     margin-bottom: 32px;
 }
 
+#notes {
+    background: #FBFBFB;
+}
+
 #notes .notes-container, #second-brain .second-brain-container {
     padding: 120px 0;
 }
