@@ -64,6 +64,7 @@ body {
     background-color: #30B868;
     cursor: pointer;
     border: 1px solid #30B868;
+    box-shadow: 0 10px 20px #00000016;
 }
 
 .btn-outline {
@@ -224,10 +225,26 @@ nav .brand-logo img{
     margin-right: 2px;
 }
 
+#early-access .early-access-container{
+    padding: 80px 0;
+    text-align: center;
+    background: #F7F6F2;
+}
+
+#early-access .early-access-container .section-heading {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#early-access .early-access-container .btn {
+    margin: 24px 0 16px 0;
+}
+
 footer {
     color: #ffffff;
     background: #001931;
     padding-top: 120px;
+    margin-top: 120px;
 }
 
 footer .footer-container .footer-top{
@@ -256,4 +273,9 @@ footer .social h3 {
 
 footer .social i {
     font-size: 28px;
+    cursor: pointer;
+}
+
+footer .social i:hover{
+    color: #30B868;
 }
