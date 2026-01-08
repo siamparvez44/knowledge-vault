@@ -14,8 +14,6 @@ body {
 .container {
     width: 85%;
     max-width: 1360px;
-    /* this needs to be deleted */
-    border: 1px solid red;
     margin: 0 auto;
 }
 
@@ -177,18 +175,53 @@ nav .brand-logo img{
     margin-bottom: 32px;
 }
 
-#notes .notes-container {
+#notes .notes-container, #second-brain .second-brain-container {
     padding: 120px 0;
+}
+
+#notes .section-heading p, #second-brain .section-heading p{
+    margin-bottom: 44px;
+}
+
+#notes .notes-container {
     text-align: center;
 }
 
 #notes .notes-container .card-container {
     display: flex;
     gap: 24px;
-    margin-top: 44px;
+}
+
+#second-brain .second-brain-container {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+#second-brain .section-heading h3{
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+#second-brain .second-brain-container ul {
+    list-style: none;
+    font-size: 18px;
+    font-weight: medium;
+}
+
+#second-brain .second-brain-container li {
+    margin-bottom: 16px;
+}
+
+#second-brain .second-brain-container i {
+    color: #30B868;
+    margin-right: 2px;
 }
 
 footer {
     color: #ffffff;
     background: #001931;
 }
+
