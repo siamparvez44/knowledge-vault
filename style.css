@@ -14,23 +14,40 @@ body {
 .container {
     width: 85%;
     max-width: 1360px;
+    /* this needs to be deleted */
     border: 1px solid red;
     margin: 0 auto;
 }
 
 .btn {
     font-size: 16px;
-    font-weight: 600;
+    font-weight: bold;
     color: #ffffff;
     padding: 12px 16px;
     border: none;
     border-radius: 4px;
     background-color: #30B868;
     cursor: pointer;
+    border: 1px solid #30B868;
+}
+
+.btn-outline {
+    border: 1px solid #ffffff;
+    background: transparent;
+    margin-left: 10px;
 }
 
 .btn:hover{
-    background-color: #24844c;
+    background-color: #22a95a;
+}
+
+.btn-outline:hover{
+    background: #bfbfbf;
+}
+
+
+.green-color {
+    color: #30B868;
 }
 
 /* main style */
@@ -44,7 +61,7 @@ nav {
 nav .menu {
     display: flex;
     list-style: none;
-    gap: 30px;
+    gap: 32px;
     align-items: center;
 }
 
@@ -57,4 +74,68 @@ nav .menu a {
 
 nav .brand-logo img{
     max-width: 140px;
+}
+
+#banner {
+    background-color: #ffffff;
+    background: url("./assets/images/hero-bg.png"), #ffffff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 120px 0 180px 0;
+}
+
+#banner .banner-content{
+    max-width: 770px;
+    margin: auto auto;
+    text-align: center;
+}
+
+#banner .early-access-badge {
+    width: 230px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 8px 12px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+#banner .early-access-badge h4 {
+    color: #30B868;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#banner .early-access-badge .parent-circle {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background: #30b86933;
+}
+
+#banner .early-access-badge .child-circle {
+    width: 6px;
+    height: 6px;
+    outline: 3px solid #30b86952;
+    background:  #30b869cd;
+    border-radius: 100%;
+}
+
+
+#banner .banner-content h1 {
+    font-size: 72px;
+    color: #ffffff;
+    margin: 16px 0;
+}
+
+#banner .banner-content p {
+    font-size: 18px;
+    line-height: 32px;
+    color: #ffffff;
+    margin-bottom: 32px;
 }
