@@ -82,6 +82,16 @@ body {
 }
 
 
+.btn img {
+    margin-left: 12px;
+    vertical-align: middle;
+}
+
+.btn-outline img {
+    margin-right: 12px;
+    margin-left: 0px;
+}
+
 .green-color {
     color: #30B868;
 }
@@ -115,6 +125,7 @@ nav .brand-logo img{
 #banner {
     background-color: #ffffff;
     background: url("./assets/images/hero-bg.png"), #ffffff;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     padding: 120px 0 180px 0;
